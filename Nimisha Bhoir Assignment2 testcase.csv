@@ -1,0 +1,114 @@
+Test Case Number,                                  Test case Name,Test Data,Test Steps,Expected Result,Actual Result,Status
+1,Verify the 'Leaving From' text field with Alphanumeric data,Mumbai123,"1. User navigates the application
+2.user enter alphanumeric string in
+'Leave from' text field.","User should be able to enter
+alphanumeric string in'Leave from' text field.","User is able to enter
+aplphanumeric string in textfield",Pass
+2,Verify that the 'Leaving From' textfield data is upto 256 character ,Mumbai123,"1. User navigates the application
+2.user enter characters present in location upto 256 characters in 'Leave from' text field
+
+","User should be able to enter data upto 256
+characters  in the text field.","User is able to enter
+more than 256 characters in the text field.",Fail
+3,Verify  'Leaving From' field with null value,Mumbai123,"1. User navigates the application.
+2.User enters space or leaves the textfield blank with null value","User should not be able to leave
+the textfield blank and on doing that 
+alert msg should be given to user","User is not able to leave
+the textfield blank you get alert message if you do so",Pass
+4,Verify 'Leaving from' location is equal to the values of location present in db,Mumbai123,"1.User navigates the application.
+2. User enters the location's starting 2 3 
+characters and selects the desired location from the dropdown list appeared .","User should be able to select only 
+those location that are stored in
+database",User is not able to select the location outside the values stored in the database,Pass
+5,Verify 'Leaving from' textfield with dropdown list is scrollable or not,Mumbai123,"1. User navigates the application.
+2.User selects the desired location from the dropdown list appeared and tries to scroll it up and down",User should be able to scroll up the dropdown or scroll it down.,User is not able to scroll the dropdown up and down,Fail
+,,,,,,
+,,,,,,
+,Going to Field,,,,,
+1,Verify the 'Going to' text field with Alphanumeric data,Pune,"1. User navigates the application.
+2.user enter alphanumeric string in
+'Going To' text field.","User should be able to enter
+alphanumeric string in 'Going to' text field.","User is able to enter
+aplphanumeric string in textfield.",Pass
+2,Verify that the 'Going to' textfield data is upto 256 character ,Pune23,"1. User navigates the application.
+2.user enter characters present in location upto 256 characters in 'Going to' text field.",User should be able to enter data upto 256 characters  in the text field.,"User is able to enter
+more than 256 characters in the text field.",Fail
+3,Verify  'Going to' field with null value,""" ""","1. User navigates the application.
+2.User enters space or leaves the textfield blank with null value.","User should not be able to leave
+the textfield blank and on doing that alert msg should be given to user.",User is not able to leave the textfield blank you get alert message if you do so.,Pass
+4,Verify 'Going to' location is equal to the values of location present in db,Pune,"1.User navigates the application.
+2. User enters the location's starting 2 3 
+characters and selects the desired location from the dropdown list appeared .","User should be able to select only 
+those location that are stored in
+database.",User is not able to select the location outside the values stored in the database.,Pass
+5,Verify 'Going to' textfield with dropdown list is scrollable or not,Pune,"1.User navigates the application.
+2.User selects the desired location from the dropdown list appeared and tries to scroll it up and down.",User should be able to scroll up the dropdown or scroll it down.,User is not able to scroll the dropdown up and down.,Fail
+,,,,,,
+,,,,,,
+,Date of Departure Field,,,,,
+1,VERIFY THE 'Date of Departure' fileds for manually typing date,14-09-2021,"1. User navigates to the Application.
+2.User can manually type date in 'Date of Departure' Text Field.","User should be able to enter date
+ manually by typing  in 'Date of Departure'.",User is not able to enter date manually by typing  in 'Date of Departure'.,Fail
+2,"VERIFY THE 'Date of Departure' fileds for drop down calander on clicking on the field.
+",14-09-2021,"1. User navigates to the Application.
+2.User can open calender by clicking on field in 'Date of Departure' Text Field.",User should be able to select date from drop down calender  in 'Date of Departure'.,User is able to select date from drop down calender  in 'Date of Departure'.,Pass
+3,Verify THE 'Date of Departure' fileds for displaying date in proper format.,14-09-2021,"1. User navigates to the Application.
+2.User can view the selected date in formt dd-mm-yy in 'Date of Departure' Text Field.","User should be able to view date
+ in the given format  in 'Date of Departure'.","User is able to view 
+date in the given format  in 'Date of Departure'.",Pass
+4,Verify  'Date of Departure' fileds for departure date less than arrival date.,14-09-2021,"1. User navigates to the Application.
+2.User cannot select date greater than arrival date in 'Date of Departure' Text Field.",User should be able to select date greater than arrival date in 'Date of Departure'.,"User is not able to select
+ date greater than arrival date in 'Date of Departure'.",Pass
+5,Verify 'Date of Departure' fileds for blocking the dates that have been past.,14-09-2021,"1. User navigates to the Application.
+2.User cannot select dates that are already passed away in 'Date of Departure' Text Field.","User should be able to select 
+passed away dates in the field  in 'Date of Departure'.",User is not able to select passed away dates in the field  in 'Date of Departure'.,Pass
+,,,,,,
+,,,,,,
+,Date of Return Field,,,,,
+1,VERIFY  'Date of Return' fileds for manually typing date.,15-10-2021,"1. User navigates to the Application.
+2.User can manually type date in 'Date of Return' Text Field.","User should be able to enter date
+ manually by typing  in 'Date of Return'.","User is not able to enter date
+ manually by typing  in 'Date of Return'.",Fail
+2,VERIFY  'Date of Return' fileds for drop down calander on clicking on  field.,15-10-2021,"1. User navigates to the Application.
+2.User can open calender by clicking on field in 'Date of Return' Text Field.","User should be able to select date
+ from drop down calender  in 'Date of Return'.",User is able to select date from drop down calender  in 'Date of Return'.,Pass
+3,VERIFY  'Date of Return' fileds for displaying date in proper format.,15-10-2021,"1. User navigates to the Application.
+2.User can view the selected date in formt dd-mm-yy in 'Date of Return' Text Field.","User should be able to view date 
+in the given format  in 'Date of Return'.","User is able to view date in the
+ given format  in 'Date of Return'.",Pass
+4,VERIFY 'Date of Return' fileds for return date grater than departure date.,15-10-2021,"1. User navigates to the Application.
+2.User cannot select date greater than arrival date in 'Date of Return' Text Field.",User should be able to select date greater than departure date in 'Date of Return'.,User is able to select able to date greater than departure date in 'Date of Return'.,Pass
+5,VERIFY 'Date of Return' fileds for blocking the dates that have been past.,15-10-2021,"1. User navigates to the Application.
+2.User cannot select dates that are already passed away in 'Date of Return' Text Field.",User should be able to select passed away dates in the field  in 'Date of Return'.,User is not able to select passed away dates in the field  in 'Date of Return'.,Pass
+,,,,,,
+,,,,,,
+,Single Lady checkbox,,,,,
+1,Verify the  'Single Lady' Checkbox is selectable or not,*,"1.User navigates the application.
+2.User  check the checkbox.",User should not be able to pass without checking the checkbox.,"User can pass or navigate 
+further without selecting the checkbox",Pass
+2,"Verify that on pressing of submit button with selection of check box , 
+it Redirect to the page as per requirement or not.",checked,"1.User navigates the application.
+2.User  check the checkbox. And then 
+clicking on submit button it should show the bus requirements as per required.","User should be able to see all the  available buses as per
+ single lady field criteria.","User gets all the  available buses schedule as per
+ single lady field criteria.",Pass
+,,,,,,
+,,,,,,
+,,,,,,
+,Search bus button,,,,,
+1,Verify that without entering data in any field the 'Search 'button works or not?,,"1.User navigates the application
+2.User clicks on search button without entering any other data in other fields.","User should not be able to get 
+redirected to page that shows bus schedules or other information on clicking the search button.","User gets alert message to 
+enter the locations and date for further process",Pass
+2,Verify whether button is clickable or not,,"1.User navigates the application
+2.User clicks on search button .",User should be able to click the button,User can click the search button,Pass
+3,Verify whether on clicking search button user gets redirected to list of availble bus schedule and if user has also entered valid details,,"1.User navigates the application
+2.User clicks on search button .",User  should be able to go to the next page where the bus schedules are displayed based on data entered by user in respective fields,User  is able to go to the next page where the bus schedules are displayed based on data entered by user in respective fields,Pass
+4,Verify the curor changes to pointer on hovering 'Search for Bus ' button,,"1.User navigates the application
+2.User hovers the'search' button.","User should be able to see the pointer
+cursor on hovering the button.","User is able to see the pointer
+cursor on hovering the'search' button.",Pass
+5,Verify the 'Search for bus' button for clear or modify or cancel options,,"1.User navigates the application
+2.User can search to view desired results based in the inputs.
+3.User can clear/modify the search results.","User should be able to clear/modify 
+the serach results to delete or update the generated results.",User should be able to clear/modify the serach results to delete or update the generated results.,Pass
